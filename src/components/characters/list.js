@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import {
   setCurrentCharacter,
   getCharacterProfile,
-} from '../reducer/character/actions';
+} from '../../reducer/character/actions';
 
 const CharacterList = ({ characters, setCharacter }) =>
   <div id='character-list' className='col-md-6'>

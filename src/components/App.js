@@ -1,8 +1,8 @@
 import React from 'react';
-import CharacterList from './CharacterList';
-import CharacterProfile from './CharacterProfile';
-import CharacterWorld from './CharacterWorld';
-import CharacterMovies from './CharacterMovies';
+import CharacterList from './characters/list';
+import CharacterProfile from './character/profile';
+import CharacterWorld from './character/world';
+import CharacterMovies from './character/movies';
 
 const App = () =>
   <div className='container'>
